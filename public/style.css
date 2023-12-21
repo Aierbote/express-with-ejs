@@ -39,8 +39,15 @@ header {
 
 main {
 	min-height: 500px;
-	padding: 1.6em;
+	padding: 1.6em 1.6em 4.6em;
 
+	background: linear-gradient(
+		177deg,
+		rgba(255, 255, 255, 1) 29%,
+		rgba(217, 217, 217, 1) 64%,
+		rgba(176, 170, 170, 1) 83%,
+		rgba(114, 100, 100, 1) 90%
+	);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -64,7 +71,7 @@ ul#listRubrica > li {
 	height: 12vw;
 	padding: 0.7em 1.2em;
 
-	background-color: #7fffd40f;
+	background-color: #dffffb;
 	border-radius: 1.1em;
 }
 
