@@ -19,9 +19,16 @@
 			<ul id="listRubrica">
 				<% if (users.length > 0) { %> <% for (let u of users) {%>
 				<li>
-					<h3><%= u.first_name %> <%= u.last_name %></h3>
-					<p><%= u.id %> IMG👤</p>
-					<p><%= u %></p>
+					<h3><%= u.id %>. <%= u.first_name %> <%= u.last_name %></h3>
+					<div id="cardInfos">
+						<div>
+							<img src="<%= u.imgURL %>" />
+						</div>
+						<div>
+							<p>📨 <%= u.email %></p>
+							<p>📞 <%= u.phone_number %></p>
+						</div>
+					</div>
 				</li>
 				<% } %> <% } else { %>
 				<h2>‽ 404 Contatti</h2>
