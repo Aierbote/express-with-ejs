@@ -1,3 +1,28 @@
 header {
-	background-color: purple;
+	background-color: rgb(4, 81, 136);
+	color: white;
+	height: 6rem;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: left;
+	padding-left: 3rem;
+}
+
+#imgLogo {
+	width: 4rem;
+	height: 4rem;
+}
+
+#linkLogo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#spanLogo {
+	font-size: 3rem;
+	color: white;
+	font-weight: bolder;
 }
