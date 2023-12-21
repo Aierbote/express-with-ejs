@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Rubrica</title>
+
+		<meta name="author" content="Alberto Cangialosi" />
+	</head>
+	<body>
+		<header>
+			<img src="" alt="📇" />
+		</header>
+		<main>
+			<h1>Il Nostro Team</h1>
+			<ul>
+				<% if (users.length > 0) { %> <% for (let u of users) {%>
+				<li>
+					<h3><%= u.first_name %> <%= u.last_name %></h3>
+					<p><%= u.id %> IMG👤</p>
+					<p><%= u %></p>
+				</li>
+				<% } %> <% } else { %>
+				<h2>‽ 404 Contatti</h2>
+				<p>OPS: La rubrica sembra vuota...</p>
+				<% } %>
+			</ul>
+		</main>
+		<footer>
+			<div>
+				<figure>
+					<img src="" alt="👤" />
+					<figcaption>Alberto Cangialosi</figcaption>
+				</figure>
+			</div>
+
+			<div>
+				<img src="" alt="logo ITS Steve Jobs Academy" />
+			</div>
+		</footer>
+	</body>
+</html>
