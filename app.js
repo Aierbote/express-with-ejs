@@ -45,7 +45,7 @@ const users = [
   {
     "id": 7,
     first_name: 'Pinco', last_name: 'Panco',
-    "email": "pincopanco@wonderland.com", "phone_number": "123-123456",
+    "email": "pincopanco@wonder.land", "phone_number": "123-123456",
     imgURL: "https://em-content.zobj.net/source/apple/354/boy_1f466.png"
   },
   {
