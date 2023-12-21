@@ -41,12 +41,12 @@ main {
 	min-height: 500px;
 	padding: 1.6em 1.6em 4.6em;
 
-	background: linear-gradient(
-		177deg,
-		rgba(255, 255, 255, 1) 29%,
-		rgba(217, 217, 217, 1) 64%,
-		rgba(176, 170, 170, 1) 83%,
-		rgba(114, 100, 100, 1) 90%
+	background: radial-gradient(
+		ellipse at 0px -180px,
+		rgba(255, 255, 255, 1) 14%,
+		rgba(217, 217, 217, 1) 56%,
+		rgba(176, 170, 170, 1) 64%,
+		rgba(114, 100, 100, 1) 83%
 	);
 	display: flex;
 	flex-direction: column;
