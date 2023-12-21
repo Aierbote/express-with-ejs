@@ -16,7 +16,7 @@
 		<!-- MAIN rubrica -->
 		<main>
 			<h1>Il Nostro Team</h1>
-			<ul>
+			<ul id="listRubrica">
 				<% if (users.length > 0) { %> <% for (let u of users) {%>
 				<li>
 					<h3><%= u.first_name %> <%= u.last_name %></h3>
