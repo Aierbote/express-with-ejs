@@ -1,2 +1,23 @@
-<h1>Ciao, io sono <%= user.firstName %> <%= user.lastName %></h1>
-<a href="./rubrica">Go to Rubrica</a>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ITS Steve Jobs</title>
+
+		<meta name="author" content="Alberto Cangialosi" />
+	</head>
+	<body>
+		<!-- header -->
+		<%- include("../views/header.ejs") %>
+
+		<!-- MAIN rubrica -->
+		<main>
+			<h1>Ciao, io sono <%= user.firstName %> <%= user.lastName %></h1>
+			<a href="./rubrica">Go to Rubrica</a>
+		</main>
+
+		<!-- footer -->
+		<%- include("../views/footer.ejs") %>
+	</body>
+</html>
