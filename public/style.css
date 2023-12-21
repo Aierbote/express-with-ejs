@@ -38,9 +38,13 @@ header {
 }
 
 main {
+	min-height: 500px;
+	padding: 1.6em;
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	gap: 1.2em;
 }
 
 ul#listRubrica {
