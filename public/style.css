@@ -1,5 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 header {
-	background-color: rgb(4, 81, 136);
+	background: linear-gradient(
+		149deg,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(4, 81, 136, 1) 17%,
+		rgba(99, 0, 141, 1) 100%
+	);
 	color: white;
 	height: 6rem;
 
