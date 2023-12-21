@@ -77,6 +77,17 @@ ul#listRubrica > li {
 	-webkit-box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.52);
 }
 
+ul#listRubrica #cardInfos img {
+	width: 6rem;
+	height: 6rem;
+}
+
+ul#listRubrica #cardInfos {
+	display: flex;
+	flex-direction: row;
+	align-content: start;
+}
+
 footer {
 	background-color: #726464;
 	min-height: 20.5em;
