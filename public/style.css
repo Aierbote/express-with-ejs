@@ -79,4 +79,16 @@ ul#listRubrica > li {
 
 footer {
 	background-color: #726464;
+	min-height: 20.5em;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+footer > div > figure {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
