@@ -71,7 +71,7 @@ ul#listRubrica {
 }
 
 ul#listRubrica > li {
-	width: 24vw;
+	width: max-content;
 	height: 150px;
 	padding: 0.76rem 1.26rem;
 
@@ -90,6 +90,16 @@ ul#listRubrica #cardInfos {
 	display: flex;
 	flex-direction: row;
 	align-content: start;
+}
+
+ul#listRubrica #cardInfos > .card_pfp {
+	min-width: 6rem;
+	/* width: 10rem; */
+}
+
+ul#listRubrica #cardInfos > .card_details {
+	/* min-width: 6rem; */
+	width: 10rem;
 }
 
 footer {
